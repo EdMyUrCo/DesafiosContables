@@ -226,6 +226,45 @@ h1 {
     font-size: 14px;
 }
 
+.figure{
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor de la imagen y los botones */
+.container-image-buttons {
+    text-align: center;
+    /* Centrar horizontalmente */
+    margin-top: 20px;
+    /* Ajusta el margen superior según tu diseño */
+}
+
+.container-image-buttons img {
+    max-width: 100%;
+    /* Asegura que la imagen no exceda el ancho del contenedor */
+}
+
+/* Estilos para los botones (puedes personalizarlos más si es necesario) */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 30px;
+    background-color: #7d1ed6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #7d1ed6;
+}
+
 footer {
     background-color: #7d1ed6;
     background: #7d1ed6;
