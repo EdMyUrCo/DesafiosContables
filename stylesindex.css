@@ -1,9 +1,11 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Estilos de encabezado */
 header {
     background-color: white;
     color: white;
@@ -11,8 +13,9 @@ header {
     text-align: center;
 }
 
+/* Estilos de navegación */
 nav {
-    background-color: #7d1ed6;
+    background-color: #800080;
     color: white;
 }
 
@@ -35,14 +38,14 @@ nav ul li a {
 }
 
 nav ul li:hover>a {
-    background-color: #7d1ed6;
+    background-color: #800080;
 }
 
 nav ul li ul {
     display: none;
     position: absolute;
     top: 100%;
-    background-color: #7d1ed6;
+    background-color: #800080;
     min-width: 200px;
 }
 
@@ -69,7 +72,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #7d1ed6;
+    background-color: #800080;
     color: white;
 }
 
@@ -87,9 +90,49 @@ main {
 
 .container-div-index {
     display: flex;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+@keyframes shapeChange {
+    0% {
+        transform: rotate(0deg);
+        /* Inicialmente, el cuadrado está sin rotar */
+        border-radius: 0;
+        float: center;
+        /* Sin bordes redondeados (cuadrado) */
+    }
+
+    50% {
+        transform: rotate(45deg);
+        /* Gira 45 grados */
+        border-radius: 50%;
+        float: center;
+        /* Bordes redondeados (círculo) */
+    }
+
+    100% {
+        transform: rotate(360deg);
+        /* Gira a 360 grados (vuelve al cuadrado) */
+        border-radius: 0;
+        float: center;
+        /* Sin bordes redondeados (cuadrado) */
+    }
+}
+
+/* Aplica la animación a la figura con la clase "shape-changing" */
+.shape-changing {
+    width: 100px;
+    height: 100px;
+    background-color: #800080;
+    /* Color de fondo inicial (azul) */
+    animation: shapeChange 4s ease-in-out infinite;
+    /* Animación de 4 segundos con efecto de entrada y salida y se repite indefinidamente */
+}
+
+.highlighted{
+    text-align: center;
 }
 
 .column {
@@ -109,7 +152,7 @@ main {
 
 .column h1 {
     text-align: center;
-    color: #7d1ed6;
+    color: #800080;
     margin-top: 0;
     padding: 20px 0;
 }
@@ -122,7 +165,7 @@ main {
 
 h1 {
     text-align: center;
-    color: #7d1ed6;
+    color: #800080;
 }
 
 .img-container {
@@ -171,14 +214,14 @@ h1 {
 }
 
 .form-group input[type="submit"] {
-    background-color: #7d1ed6;
+    background-color: #800080;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .form-group input[type="submit"]:hover {
-    background-color: #7d1ed6;
+    background-color: #800080;
 }
 
 .member-main {
@@ -232,6 +275,11 @@ h1 {
     text-align: center;
 }
 
+img{
+    display: flex;
+    justify-content: center;
+}
+
 /* Estilos para el contenedor de la imagen y los botones */
 .container-image-buttons {
     text-align: center;
@@ -250,7 +298,7 @@ h1 {
     display: inline-block;
     padding: 10px 20px;
     margin: 30px;
-    background-color: #7d1ed6;
+    background-color: #800080;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -262,12 +310,13 @@ h1 {
 }
 
 .boton:hover {
-    background-color: #7d1ed6;
+    background-color: #800080;
 }
 
+/* Estilos de pie de página */
 footer {
-    background-color: #7d1ed6;
-    background: #7d1ed6;
+    background-color: #800080;
+    background: #800080;
     color: white;
     padding: 20px;
     text-align: center;
