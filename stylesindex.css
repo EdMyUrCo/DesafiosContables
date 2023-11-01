@@ -84,9 +84,7 @@ main {
 
 .index-main {
     font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    margin: 0;
-    padding: 0;
+    background-color: aliceblue;
 }
 
 .container-div-index {
@@ -173,7 +171,9 @@ h3 {
 }
 
 .img-container {
-    text-align: center;
+    text-align: left;
+    padding: 0;
+    margin: 0;
 }
 
 .form-body {
@@ -238,7 +238,7 @@ h3 {
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
