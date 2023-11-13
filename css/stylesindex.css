@@ -293,6 +293,36 @@ img{
     background-color: #800080;
 }
 
+/* Estilos del contenedor */
+.content {
+    text-align: center;
+    /* O alinea según tus preferencias */
+}
+
+/* Estilos del texto */
+.content p {
+    display: inline-block;
+    margin-right: 10px;
+    /* Espaciado entre el texto y el botón */
+}
+
+/* Estilos del botón */
+.round-button {
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #800080;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
 /* Estilos de pie de página */
 footer {
     background-color: #800080;
