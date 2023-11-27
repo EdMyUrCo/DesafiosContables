@@ -222,36 +222,33 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px
 }
 
 .member {
     width: 200px;
-    margin: 20px;
-    text-align: center;
+    align-items: center;
+    margin: 50px;
 }
 
 .member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 220px;
+    height: 350px;
+    border-radius: 40%;
     object-fit: cover;
-    margin-bottom: 10px;
 }
 
 .member h3 {
-    margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .member p {
-    margin: 0;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .figure{
     align-items: center;
-    padding: 20px;
     text-align: center;
 }
 
