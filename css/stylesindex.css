@@ -123,7 +123,6 @@ main {
     line-height: 1.5;
 }
 
-
 h1,
 h2,
 h3 {
@@ -172,7 +171,7 @@ p{
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
 .form-group label {
@@ -212,7 +211,7 @@ p{
 .container {
     max-width: 800px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 50px;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -291,8 +290,16 @@ img{
 }
 
 /* Estilos del contenedor */
-.content {
+.content-ref {
+    background-image: url("../images/pergamino.jpeg");
+    height: 690px;
+    padding: 70px;
     text-align: center;
+    background-size: cover;
+    /* Ajustar la imagen al tamaño de la ventana */
+    background-position: center;
+    border-radius: 50px;
+    /* Centrar la imagen */
     /* O alinea según tus preferencias */
 }
 
