@@ -291,16 +291,20 @@ img{
 
 /* Estilos del contenedor */
 .content-ref {
-    background-image: url("../images/pergamino.jpeg");
     height: 690px;
     padding: 70px;
-    text-align: center;
+    text-align: left;
     background-size: cover;
     /* Ajustar la imagen al tamaño de la ventana */
     background-position: center;
     border-radius: 50px;
     /* Centrar la imagen */
     /* O alinea según tus preferencias */
+}
+
+.list{
+    text-align: left;
+    list-style-type: none;
 }
 
 /* Estilos del texto */
