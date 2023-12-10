@@ -292,19 +292,27 @@ img{
 /* Estilos del contenedor */
 .content-ref {
     height: 690px;
-    padding: 70px;
+    padding: 30px;
     text-align: left;
     background-size: cover;
     /* Ajustar la imagen al tamaño de la ventana */
-    background-position: center;
+    background-position: left;
     border-radius: 50px;
     /* Centrar la imagen */
     /* O alinea según tus preferencias */
 }
 
-.list{
+.list p{
     text-align: left;
+}
+
+li {
     list-style-type: none;
+}
+
+.hiper{ 
+    color: blue;
+
 }
 
 /* Estilos del texto */
